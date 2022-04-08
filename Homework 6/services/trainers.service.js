@@ -7,14 +7,19 @@ const trainersPath = path.join(__dirname, "..", "data", "trainers.json");
 
 // 1. Get trainers data
 const getTrainersData = (queryData) => {
-  JSON.parse(fs.readFileSync(trainersPath, { encoding: "utf-8" }));
+  const triners = JSON.parse(
+    fs.readFileSync(trainersPath, { encoding: "utf-8" })
+  );
 
   let updatedTrainers = [...trainers];
 
   if (queryData?.isCurrentlyTeaching) {
-    updatedTrainers = updatedTrainers.filter(
-      (trainer) => trainer.isCurrentlyTeaching === queryData.isCurrentlyTeaching
-    );
+    if (queryData?.isCurrentlyTeaching === "true") {
+      updatedTrainers = updatedTrainers.filter(
+        (trainer) =>
+          trainer.isCurrentlyTeaching === queryData.isCurrentlyTeaching
+      );
+    }
   }
 
   if (updatedTrainers.length <= 0) throw new Error("No trainers found");

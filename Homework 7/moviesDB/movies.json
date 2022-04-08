@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "movieName": "The Dictator",
+      "movieGenre": "comedy",
+      "movieReleaseDate": "16 May 2012",
+      "movieDirector": "Larry Charles"
+    },
+    {
+      "movieName": "The last duel",
+      "movieGenre": "drama",
+      "movieReleaseDate": "8 October 2021",
+      "movieDirector": "Ridley Scott"
+    },
+    {
+      "movieName": "Alien: Covenant",
+      "movieGenre": "horror/sf",
+      "movieReleaseDate": "25 June 2012",
+      "movieDirector": "Ridley Scott"
+    },
+    {
+      "movieName": " roky4",
+      "movieGenre": "triller",
+      "movieReleaseDate": "25 June 2012",
+      "movieDirector": "Sinisa Pavic"
+    }
+  ]
+}
