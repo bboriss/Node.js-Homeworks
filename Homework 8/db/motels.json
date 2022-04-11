@@ -1,0 +1,20 @@
+[
+  {
+    "motelName": "Star Motel",
+    "hotelRooms": "20",
+    "location": "Gevgelija",
+    "pricePerNight": "600MKD"
+  },
+  {
+    "motelName": "Golden Motel",
+    "hotelRooms": "70",
+    "location": "Nis",
+    "pricePerNight": "300MKD"
+  },
+  {
+    "motelName": "Some Motel",
+    "hotelRooms": "60",
+    "location": "Veles",
+    "pricePerNight": "400MKD"
+  }
+]
