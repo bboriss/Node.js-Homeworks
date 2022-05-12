@@ -1,9 +1,0 @@
-[
-  { "topic": "economy", "content": "Lorem Ipsum", "author": "Wendy Edelberg" },
-  {
-    "topic": "fashion",
-    "content": "Lorem Ipsum",
-    "author": "Some fashion expert"
-  },
-  { "topic": "food", "content": "Lorem Ipsum", "author": "Restaurant Chef" }
-]
