@@ -1,0 +1,20 @@
+[
+  {
+    "id": "l89l4gvu",
+    "username": "Alex Mcfarland",
+    "password": "12345",
+    "isAdmin": false
+  },
+  {
+    "id": "l73l5gvu",
+    "username": "Tiernan Fox",
+    "password": "54321",
+    "isAdmin": true
+  },
+  {
+    "id": "l43l1gvu",
+    "username": "Alexie Grant",
+    "password": "32415",
+    "isAdmin": false
+  }
+]
